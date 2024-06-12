@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5000;
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://rahiaag:cricket@cluster0.pzh9cvd.mongodb.net/mini-crm', {
+mongoose.connect('mongodb+srv://rahiaag:123456@cluster0.pzh9cvd.mongodb.net/mini-crm', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => {
